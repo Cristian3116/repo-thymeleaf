@@ -18,7 +18,7 @@ public class StudentController {
 
         theModel.addAttribute("student" , stheStudent);
 
-        return "student-from";
+        return "student-form";
 
     }
 
