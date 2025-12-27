@@ -23,7 +23,7 @@ public class StudentController {
         return "student-form";
 
     }
-    @PostMapping
+    @PostMapping("/processStudentForm")
     public String processForm(@ModelAttribute("student") Student theStudent) {
 
         //log the input data
